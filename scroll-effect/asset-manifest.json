@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bef763da.css",
+    "main.js": "./static/js/main.79e2415d.js",
+    "static/media/ny-1.jpg": "./static/media/ny-1.ff9bc6ec30d67f1d3a91.jpg",
+    "static/media/ny-3.jpg": "./static/media/ny-3.6d8a45d31d3b275a08b9.jpg",
+    "static/media/ny-2.jpg": "./static/media/ny-2.f3c87331079ffb9951b5.jpg",
+    "static/media/ny-4.jpg": "./static/media/ny-4.15b0f1c33b543d76ff0a.jpg",
+    "static/media/ny-bg-4.jpg": "./static/media/ny-bg-4.6881f095e5b4833e7639.jpg",
+    "static/media/ny-bg-1.jpg": "./static/media/ny-bg-1.07c4297c77417094933d.jpg",
+    "static/media/ny-bg-2.jpg": "./static/media/ny-bg-2.03f2738e8e5752e43209.jpg",
+    "static/media/ny-bg-3.jpg": "./static/media/ny-bg-3.1aee2adee68f79ad9f3b.jpg",
+    "index.html": "./index.html",
+    "main.bef763da.css.map": "./static/css/main.bef763da.css.map",
+    "main.79e2415d.js.map": "./static/js/main.79e2415d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef763da.css",
+    "static/js/main.79e2415d.js"
+  ]
+}

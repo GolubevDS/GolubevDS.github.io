@@ -1,0 +1,124 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+body {
+	background: #111111;
+	color: white;
+	font-family: 'inner', sans-serif;
+	position: relative;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 1;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 250ms ease-in-out;
+}
+
+.background.active {
+	opacity: 1;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	z-index: 100;
+}
+
+.sidebar ul {
+	height: 100%;
+	padding-left: 30px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	width: 40px;
+	height: 40px;
+	opacity: .4;
+	transition: 250ms ease-in-out;
+	border-bottom: 1px solid transparent;
+}
+
+.sidebar ul li.active {
+	opacity: 1;
+	border-bottom-color: white;
+}
+
+.sidebar ul li a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.container {
+	width: 100vw;
+	max-width: 100vw;
+	padding: 0 30px;
+}
+
+.block {
+	padding: 15px 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	opacity: .4;
+	transition: opacity 250ms ease-in-out;
+}
+
+.block.active {
+	opacity: 1;
+}
+
+.block:first-child {
+	padding-top: 30px;
+}
+
+.block.active > .content {
+	width: calc(60vw + 30px);
+}
+
+.content {
+	transition: width 250ms ease-in-out;
+	width: 60vw;
+	height: 50vw;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+.content img {
+	width: 100%;
+}
